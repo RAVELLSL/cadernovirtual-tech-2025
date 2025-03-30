@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tecnologias Compatíveis com o Estilo de Vida de 2025 e Seus Impactos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #00d4ff;
+      --secondary-color: #ffffff;
+      --bg-color: #121212;
+      --card-bg: #1e1e1e;
+      --card-shadow: rgba(0, 212, 255, 0.4);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--secondary-color);
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 10px;
+      border-bottom: 2px solid var(--primary-color);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5em;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+    /* Layout para os cards do topo */
+    .top-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    /* Layout para os demais cards */
+    .full-card {
+      margin-bottom: 30px;
+    }
+    .other-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 25px;
+      border: 1px solid var(--primary-color);
+      box-shadow: 0 4px 8px var(--card-shadow);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 212, 255, 0.6);
+    }
+    .card h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8em;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      border-left: 5px solid var(--primary-color);
+      padding-left: 10px;
+    }
+    .card h3 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.4em;
+      margin: 20px 0 10px;
+      color: var(--primary-color);
+    }
+    .card p, .card ul, .card table {
+      margin-bottom: 15px;
+      line-height: 1.6;
+      flex: 1;
+    }
+    .card table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .card table thead {
+      background: var(--primary-color);
+      color: var(--secondary-color);
+    }
+    .card table th, .card table td {
+      padding: 12px;
+      border: 1px solid var(--primary-color);
+      text-align: left;
+    }
+    .card table tr:nth-child(even) {
+      background: #2a2a2a;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    @media (max-width: 768px) {
+      .top-cards {
+        grid-template-columns: 1fr;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      .card h2 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📚 FICHA DE ESTUDO:<br>Tecnologias Compatíveis com o Estilo de Vida de 2025 e Seus Impactos</h1>
+    </header>
+    
+    <!-- Top Row: Objetivo do Estudo e Panorama Geral lado a lado -->
+    <div class="top-cards">
+      <div class="card">
+        <h2>🧭 Objetivo do Estudo</h2>
+        <p>
+          Compreender quais são as tecnologias predominantes em 2025, como se integram ao cotidiano das pessoas, quais setores são mais afetados e os impactos positivos e negativos gerados por elas.
+        </p>
+      </div>
+      <div class="card">
+        <h2>🔍 1. Panorama Geral</h2>
+        <p>
+          O estilo de vida de 2025 é fortemente influenciado por inovações tecnológicas que promovem conectividade, automação, eficiência energética, bem-estar e personalização de serviços.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Card de largura completa para Principais Tecnologias e Seus Impactos -->
+    <div class="full-card">
+      <div class="card">
+        <h2>💡 2. Principais Tecnologias e Seus Impactos</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tecnologia</th>
+              <th>Aplicações Práticas</th>
+              <th>Impactos na Vida Cotidiana</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Inteligência Artificial (IA)</td>
+              <td>Assistentes virtuais, diagnósticos médicos, automação de processos</td>
+              <td>Redução de tarefas repetitivas, decisões mais ágeis e personalizadas</td>
+            </tr>
+            <tr>
+              <td>Internet das Coisas (IoT)</td>
+              <td>Casas inteligentes, wearables, cidades conectadas</td>
+              <td>Monitoramento remoto, conforto e economia de recursos</td>
+            </tr>
+            <tr>
+              <td>5G / 6G</td>
+              <td>Realidade aumentada, veículos autônomos, comunicações ultra rápidas</td>
+              <td>Melhor desempenho em apps, jogos, saúde e transporte</td>
+            </tr>
+            <tr>
+              <td>Realidade Aumentada / Virtual</td>
+              <td>Educação imersiva, simulações, entretenimento</td>
+              <td>Nova forma de aprendizado e experiência digital</td>
+            </tr>
+            <tr>
+              <td>Computação de Borda</td>
+              <td>Processamento local de dados em sensores e dispositivos</td>
+              <td>Maior velocidade de resposta, menos dependência da nuvem</td>
+            </tr>
+            <tr>
+              <td>Biotecnologia / Medicina Personalizada</td>
+              <td>Terapias genéticas, farmacogenômica</td>
+              <td>Tratamentos mais eficazes, prevenção de doenças</td>
+            </tr>
+            <tr>
+              <td>Energias Renováveis / Sustentáveis</td>
+              <td>Painéis solares, baterias inteligentes</td>
+              <td>Redução do impacto ambiental, economia em energia</td>
+            </tr>
+            <tr>
+              <td>Blockchain / Web3 / DeFi</td>
+              <td>Criptomoedas, contratos inteligentes, descentralização de dados</td>
+              <td>Autonomia financeira, transparência, controle dos próprios dados</td>
+            </tr>
+            <tr>
+              <td>Veículos Autônomos / Mobilidade Inteligente</td>
+              <td>Carros autônomos, drones de entrega</td>
+              <td>Menos acidentes, logística otimizada, acessibilidade</td>
+            </tr>
+            <tr>
+              <td>Impressão 3D / 4D</td>
+              <td>Construção, saúde, design de produtos</td>
+              <td>Fabricação personalizada, rápida e local</td>
+            </tr>
+            <tr>
+              <td>Nanotecnologia</td>
+              <td>Medicina, eletrônicos, materiais avançados</td>
+              <td>Produtos mais leves, resistentes e funcionais</td>
+            </tr>
+            <tr>
+              <td>Computação Quântica</td>
+              <td>Criptografia, big data, modelagem molecular</td>
+              <td>Revolução no processamento de dados complexos</td>
+            </tr>
+            <tr>
+              <td>Tecnologia Terahertz (THz)</td>
+              <td>Comunicações de altíssima velocidade, sensores avançados</td>
+              <td>Transmissão de dados quase instantânea</td>
+            </tr>
+            <tr>
+              <td>Metaverso</td>
+              <td>Reuniões, ensino, socialização em ambientes imersivos</td>
+              <td>Criação de identidades digitais e novas formas de interação</td>
+            </tr>
+            <tr>
+              <td>Tecnologias de Energia Solar Portátil</td>
+              <td>Dispositivos móveis alimentados por luz solar</td>
+              <td>Mobilidade sustentável, menos dependência de energia elétrica tradicional</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Outros Cards -->
+    <div class="other-cards">
+      <div class="card">
+        <h2>🧠 3. Setores Transformados pela Tecnologia</h2>
+        <ul>
+          <li><strong>Educação:</strong> Aulas em realidade aumentada, acesso remoto e personalizado ao conhecimento.</li>
+          <li><strong>Saúde:</strong> Telemedicina, diagnósticos com IA, terapias genéticas.</li>
+          <li><strong>Trabalho:</strong> Home office com colaboração virtual, automação de tarefas repetitivas.</li>
+          <li><strong>Transporte:</strong> Veículos elétricos e autônomos, integração com apps de mobilidade.</li>
+          <li><strong>Comércio:</strong> Compras com realidade aumentada, pagamentos digitais, logística com IA.</li>
+          <li><strong>Segurança:</strong> Monitoramento inteligente, reconhecimento facial, cidades mais seguras.</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>⚖️ 4. Vantagens e Desvantagens</h2>
+        <h3>✅ Vantagens</h3>
+        <ul>
+          <li>Maior comodidade e qualidade de vida.</li>
+          <li>Sustentabilidade e eficiência energética.</li>
+          <li>Inclusão digital e financeira.</li>
+          <li>Diagnósticos médicos mais precisos.</li>
+          <li>Otimização de processos em empresas e governos.</li>
+        </ul>
+        <h3>⚠️ Desvantagens</h3>
+        <ul>
+          <li>Dependência tecnológica.</li>
+          <li>Desemprego estrutural em áreas automatizadas.</li>
+          <li>Questões de privacidade e segurança de dados.</li>
+          <li>Exclusão digital em regiões sem infraestrutura.</li>
+          <li>Riscos éticos envolvendo IA e algoritmos.</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>🔮 5. Tendências Futuras (2025+)</h2>
+        <ul>
+          <li>Expansão da IA Generativa (na criação de conteúdo e código).</li>
+          <li>Consolidação da Web3 e descentralização dos serviços online.</li>
+          <li>Uso massivo de wearables com inteligência biométrica.</li>
+          <li>Integração entre humanos e máquinas (interfaces neurais).</li>
+          <li>Expansão da robótica no cotidiano doméstico e industrial.</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>📌 6. Palavras-chave para Memorização</h2>
+        <ul>
+          <li>Conectividade</li>
+          <li>Automação</li>
+          <li>Personalização</li>
+          <li>Imersão</li>
+          <li>Sustentabilidade</li>
+          <li>Descentralização</li>
+          <li>Interatividade</li>
+          <li>Eficiência</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>✍️ 7. Atividades Sugeridas</h2>
+        <ul>
+          <li><strong>Exercício 1:</strong> Liste 5 tecnologias que você já utiliza no dia a dia e analise seus impactos.</li>
+          <li><strong>Exercício 2:</strong> Pesquise uma tecnologia emergente ainda pouco conhecida e escreva como ela poderá transformar seu cotidiano.</li>
+          <li><strong>Exercício 3:</strong> Elabore um debate sobre os impactos éticos da IA e do uso de dados pessoais.</li>
+        </ul>
+      </div>
+      
+      <!-- Novo Card: Reflexões -->
+      <div class="card">
+        <h2>💭 Reflexões</h2>
+        <ul>
+          <li><strong>Ética e Privacidade:</strong> O avanço tecnológico impõe desafios éticos e de proteção de dados.</li>
+          <li><strong>Sustentabilidade:</strong> A tecnologia deve ser empregada de forma consciente para minimizar impactos ambientais.</li>
+          <li><strong>Inclusão Digital:</strong> A disseminação da tecnologia deve promover acesso equitativo e reduzir a desigualdade.</li>
+          <li><strong>Automação e Trabalho:</strong> A eficiência gerada pela automação levanta questões sobre o futuro do emprego.</li>
+          <li><strong>Integração Humano-Máquina:</strong> A crescente interação entre humanos e tecnologia exige novas abordagens em educação e saúde.</li>
+          <li><strong>Governança e Regulação:</strong> Políticas claras e éticas são essenciais para um desenvolvimento tecnológico seguro.</li>
+          <li><strong>Segurança Cibernética:</strong> Em um mundo interconectado, proteger dados e sistemas é cada vez mais crucial.</li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+</body>
+</html>
